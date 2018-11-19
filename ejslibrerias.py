@@ -60,6 +60,7 @@ plt.show()
 #generar archivo y guardar (y cerrar)
 f_out = open('datagen.txt', 'w')
 np.savetxt(f_out, y, fmt= '%f', delimiter= '/t', header= 'f(x)')
+#np.savetxt(f_out, x, fmt= '%f', delimiter = '/t', header = 'x')
 f_out.close()
 
 
